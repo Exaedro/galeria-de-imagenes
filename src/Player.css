@@ -1,0 +1,31 @@
+.Player {
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    z-index: 500;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px 25px;
+}
+  
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.controls p {
+    margin-bottom: 15px;
+}
+  
+button {
+    background-color: #00000040;
+    border-radius: 70%;
+    padding: 10px 20px;
+    border: 0;
+    height: 50px;
+    width: 50px;
+    font-size: 16px;
+    cursor: pointer;
+}
